@@ -1,0 +1,138 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f3f7;
+}
+
+/* Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(45deg, #33cc99, #66ffcc);
+}
+
+/* Left section with image */
+.login-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-left img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Right section with form */
+.login-right {
+    flex: 1;
+    background: white;
+    padding: 40px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-form h1 {
+    color: #333;
+    font-size: 36px;
+    text-align: center;
+}
+
+.login-form h2 {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.login-form p {
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Login/Register Button */
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff9933;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #ff6600;
+}
+
+/* Additional Options */
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.phone-login,
+.forgot-password {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.phone-login:hover,
+.forgot-password:hover {
+    color: #ff9933;
+}
+
+.new-member,
+.existing-member {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.new-member a,
+.existing-member a {
+    color: #33cc99;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.new-member a:hover,
+.existing-member a:hover {
+    color: #ff9933;
+}
+

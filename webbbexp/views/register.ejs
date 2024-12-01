@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortify - Register</title>
+    <link rel="stylesheet" href="/css/style1.css">
+    <link rel="stylesheet" href="/css/style2.css">
+
+</head>
+<body>
+    <%- include('partials/navbar') %>
+    <div class="login-container">
+        <div class="login-left">
+            <img src="/images/car1.png" alt="Car Image">
+        </div>
+        <div class="login-right">
+            <div class="login-form">
+                <h1>Sortify</h1>
+                <h2>Create an Account</h2>
+                <p>Register your account to start using Sortify’s car rental services.</p>
+                <form action="/html/main.html">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Id" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm Password" required>
+                    <button type="submit" class="login-btn">Register</button>
+                    <p class="existing-member">Already have an account? <a href="/html/login.html">Login here</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

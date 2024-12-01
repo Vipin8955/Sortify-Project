@@ -1,0 +1,19 @@
+[
+
+    {
+        "name": "Anonymous",
+        "profession": "Doctor",
+        "photo": "doctor.img",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "rating": "★★★★★ 5.0/5.0"
+    },
+    {
+        "name": "Anonymous",
+        "profession": "IT Employer",
+        "photo": "employer.jpeg",
+        "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "rating": "★★★★★ 5.0/5.0"
+    }
+
+
+]

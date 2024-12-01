@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Retro Zaporozhets",
+        "price": "RS1500/Day",
+        "discount": "20% Off",
+        "image": "retro.png",
+        "description": "Diesel, 5,000 Miles, Family, Manual",
+        "status": "AVAILABLE"
+    },
+    {
+        "name": "Black Nissan GT-R",
+        "price": "RS5000/Day",
+        "discount": "15% Off",
+        "image": "nissan.png",
+        "description": "Diesel, 3,000 Miles, Sport, Automatic",
+        "status": "AVAILABLE"
+    },
+    {
+        "name": "Volkswagen Passat",
+        "price": "RS2000/Day",
+        "discount": "10% Off",
+        "image": "volkswagen.png",
+        "description": "Diesel, 7,000 Miles, Family, Automatic",
+        "status": "AVAILABLE"
+    },
+    {
+        "name": "Brilliance Junjie FRV",
+        "price": "RS2500/Day",
+        "discount": "20% Off",
+        "image": "brilliance.png",
+        "description": "Diesel, 6,000 Miles, Family, Manual",
+        "status": "AVAILABLE"
+    }
+]
